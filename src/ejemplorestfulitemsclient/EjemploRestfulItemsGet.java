@@ -48,10 +48,6 @@ public class EjemploRestfulItemsGet {
                 System.out.println(item.getId() + ": " + item.getAstring());
             }
             
-        } catch (MalformedURLException ex) {
-            Logger.getLogger(EjemploRestfulItemsGet.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (ProtocolException ex) {
-            Logger.getLogger(EjemploRestfulItemsGet.class.getName()).log(Level.SEVERE, null, ex);
         } catch (JAXBException ex) {
             Logger.getLogger(EjemploRestfulItemsGet.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
